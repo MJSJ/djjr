@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+body {
+  font-family: 微软雅黑;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.top_bar {
+  position: relative;
+}
+.djjr {
+  position: absolute;
+}
+.toggle_nav {
+  width: 36px;
+  height: 25px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -100px 0;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.author {
+  color: #ee6457;
+}
+.author .author_n {
+  color: #fff;
+}
+.article_author {
+  width: 200px;
+  height: 83px;
+  position: relative;
+  display: inline-block;
+  margin-right: 50px;
+}
+.article_author .article_authors_box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.article_author .poster {
+  width: 78px;
+  height: 83px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.circle {
+  width: 3px;
+  height: 3px;
+  border-radius: 3px;
+  background: #ee6457;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+.nav_wrapper {
+  background: #000;
+  width: 100%;
+  border-top: 4px solid #d9423b;
+}
+.nav_wall_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.nav_wall {
+  position: relative;
+  height: 689px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.nav_wall_wrapper {
+  position: absolute;
+  top: 180px;
+  padding: 0 85px;
+  z-index: 10;
+}
+.nav_wall_wrapper .article_t {
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.nav_wall_wrapper .article_d {
+  font-size: 20px;
+  color: #fff;
+  line-height: 40px;
+}
+.article_d_box {
+  position: relative;
+}
+.article_left {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -100px -200px;
+  width: 26px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.article_right {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -100px -230px;
+  width: 26px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.article_d {
+  margin: 10px 25px;
+}
+.article_authors {
+  margin: 0 0 20px 85px;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
+  color: #fff;
+  height: 106px;
+  width: 100%;
+}
+.vol {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 15px;
+  font-size: 20px;
+  color: #fff;
+  background: #d9423b;
+  z-index: 10;
+}
+.main_wrapper {
+  padding-left: 15px;
+  width: 650px;
+}
+.intro_box {
+  width: 581px;
+  height: 182px;
+  background: url(../img/intro_bg.jpg) no-repeat;
+  margin: 0 auto;
+  position: relative;
+  font-size: 16px;
+  line-height: 40px;
+}
+.introl_t {
+  color: #d9423b;
+  display: inline-block;
+  padding-left: 10px;
+  margin-top: 14px;
+}
+.main {
+  margin-top: 74px;
+}
+.introl {
+  width: 500px;
+  margin: 15px;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+}
+.intro_left {
+  border-left: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 5px;
+}
+.p_title:before {
+  content: "";
+  display: inline-block;
+  width: 43px;
+  height: 31px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -100px -300px;
+}
+.p_title:after {
+  content: "";
+  display: inline-block;
+  width: 43px;
+  height: 31px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: -100px -331px;
+}
+.section {
+  margin-top: 74px;
+}
+.section .p_title {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #000;
+  text-align: center;
+}
+.section .p_detail {
+  line-height: 30px;
+  color: #4c4c4c;
+  text-indent: 2em;
+  margin-bottom: 50px;
+}
+.section .p_detail a,
+.section .p_detail a:visited {
+  color: #4c4c4c;
+  text-decoration: none;
+  border-bottom: 1px solid #d9423b;
+}
+.section .p_detail a:hover {
+  color: #d9423b;
+}
+.section .p_detail a:active {
+  color: #fff;
+  background: #d9423b;
+}
+.section .p_photo_box {
+  position: relative;
+  margin-bottom: 50px;
+  width: 630px;
+}
+.section .p_photo_box h5 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  font-size: 18px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
